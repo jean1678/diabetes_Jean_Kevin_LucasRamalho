@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: #C6EEE4;
+    --branco: #FFFFFF;
+    --cinza: #D9D9D9;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--azul);
+    font-family: 'K2D', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-left: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+
+.md-48{
+    font-size: 48px;
+    color: var(--marrom);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 24px;
+}
+
+nav{
+    display: none;
+}
+
+.vovo{
+    padding: 20px;
+}
+.vozinha{
+    border-radius: 15px;
+    border: 5px;
+    box-shadow: 5px;
+}
+.title{
+    color: black;
+}
+.text{
+    font-size: 15px;
+    color: black;
+}
+.area_conteudo{
+    margin: 24px;
+}
+
+.card_conteudo img{
+    border-radius: 15px;
+    margin: 24px 16px 24px 0;
+    width: 50%;
+    height: 50%;
+}
+
+.card_conteudo{
+    border-radius: 15px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card_servico_conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5px;
+}
+
+.id{
+    font-size: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.area_rodape{
+    font-size: 0.5rem;
+    color: black;
+    background-color: var(--branco);
+    text-align: center;
+    
+}
+p{
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#botao_menu{
+    color: black;
+}
